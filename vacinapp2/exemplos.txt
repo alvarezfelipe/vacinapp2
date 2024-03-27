@@ -1,0 +1,4 @@
+https://learndjango.com/tutorials/django-login-and-logout-tutorial
+
+https://github.com/wsvincent/django-auth-tutorial
+https://docs.djangoproject.com/pt-br/5.0/topics/auth/default/
