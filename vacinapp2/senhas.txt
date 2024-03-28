@@ -1,0 +1,5 @@
+superuser
+felipe - 123456
+
+cliente_teste - cliente123
+gerente_teste - gerente123
