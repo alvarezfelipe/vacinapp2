@@ -12,7 +12,7 @@ def painel_home(self):
         return render(self, 'painel/cliente.html')
     elif self.user.groups.filter(name='Unidades_Saude').exists():
         print("unidade_saude")
-        return render(self, 'painel/unidade.html')
+        return render(self, 'vacina/criar_vacina.html')
     elif self.user.groups.filter(name='Maternidade').exists():
         print("maternidade")
         return render(self, 'painel/maternidade.html')

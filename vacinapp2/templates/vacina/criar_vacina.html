@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% comment %} {% load static %} {% endcomment %}
+{% load crispy_forms_tags %}
+
+{% block title %} Cadastrar Vacina {% endblock title %}
+
+{% block main %}
+<div class=" container my-3 p-3 bg-white rounded shadow-sm">
+    <p class="text-center h3 border-bottom border-gray pb-1"> Cadastrar Vacina </p>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        
+        {% crispy form %}
+        {{form | crispy}}
+        
+    </form>
+</div>
+{% endblock main %}
