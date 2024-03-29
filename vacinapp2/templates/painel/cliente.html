@@ -1,4 +1,7 @@
 {% extends "home.html" %}
+
+{% block main %}
 <h1>login do cliente</h1>
 
 group {{ user.groups.all.0.name }}
+{% endblock %}

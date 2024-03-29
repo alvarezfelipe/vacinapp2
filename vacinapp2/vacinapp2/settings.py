@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     'crispy_forms',
     'crispy_bootstrap4',
-    'bootstrap4',
+    # 'bootstrap4',
 
     'accounts',
     'painel',
