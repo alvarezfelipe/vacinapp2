@@ -1,5 +1,5 @@
 from django.shortcuts import redirect, render
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 
 from django.contrib.auth.views import LoginView
@@ -13,3 +13,6 @@ class SignUpView(CreateView):
     template_name = 'registration/signup.html'
 
 
+def logout_user(request):
+    logout(request)
+    return redirect('login')
