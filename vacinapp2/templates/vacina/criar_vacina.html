@@ -11,7 +11,7 @@
     <form method="POST" enctype="multipart/form-data">
         {% csrf_token %}
 
-        {% crispy 'form' %}
+        {% crispy form form.helper %}
         
 
     </form>
