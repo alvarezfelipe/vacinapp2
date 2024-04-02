@@ -21,6 +21,6 @@ def criar_vacina(request):
                 request, 'Erro ao cadastrar vacina. Consulte o administrador.'                
             )
     
-
+    print(form)
     return render(request, 'vacina/criar_vacina.html', {'form':form})
     
