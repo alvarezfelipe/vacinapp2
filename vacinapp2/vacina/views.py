@@ -23,4 +23,3 @@ def criar_vacina(request):
     
     print(form)
     return render(request, 'vacina/criar_vacina.html', {'form':form})
-    

@@ -4,5 +4,5 @@ from .views import (
 )
 
 urlpatterns = [
-    path('criar_vacina', criar_vacina, name='criar_vacina'),
+    path('criar_vacina/', criar_vacina, name='criar_vacina'),
 ]
